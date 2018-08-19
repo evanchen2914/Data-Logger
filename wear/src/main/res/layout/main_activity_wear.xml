@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".WearActivity"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+
+        <TextView
+            android:id="@+id/mainText"
+            android:text="Main Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            />
+
+        <TextView
+            android:id="@+id/preText"
+            android:text="Pre Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/mainText"
+            android:alpha="0.75"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            />
+
+        <TextView
+            android:id="@+id/postText"
+            android:text="Post Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/mainText"
+            android:alpha="0.75"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            />
+
+        <TextView
+            android:id="@+id/logText"
+            android:text="Log Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.5"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            />
+
+    </LinearLayout>
+    <!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_box="all">
+
+        <TextView
+            android:id="@+id/mainText"
+            android:text="Main Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            />
+
+        <TextView
+            android:id="@+id/preText"
+            android:text="Pre Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/mainText"
+            android:alpha="0.75"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            />
+
+        <TextView
+            android:id="@+id/postText"
+            android:text="Post Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/mainText"
+            android:alpha="0.75"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            />
+
+        <TextView
+            android:id="@+id/logText"
+            android:text="Log Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.5"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            />
+
+
+    </RelativeLayout>
+    -->
+
+
+<!--
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:textColor="@android:color/white"
+        app:layout_box="all" />
+-->
+</android.support.wearable.view.BoxInsetLayout>

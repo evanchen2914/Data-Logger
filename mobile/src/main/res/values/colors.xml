@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    -->
+
+    <color name="colorPrimaryLight">#686868</color>
+    <color name="colorPrimary">#404040</color>
+    <color name="colorPrimaryChart">#ff0000</color>
+    <color name="colorPrimaryDark">#404040</color>
+
+    <color name="colorSecondary">#009900</color>
+    <color name="colorTertiary">#0000ff</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="colorLightGrey">#EEEEEE</color>
+</resources>
